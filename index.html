@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Billsplitter</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="title">
+                <h2>Bill Splitter</h2>
+            </div>
+            <div class="main-container-content">
+
+                <div class="submit-inputs">
+                <label for="totalBill">Total Bill (€/$/£)</label>
+                <input type="number" class="inputs" id="totalBill" name="totalBill" required>
+                </div>
+
+                <div class="submit-inputs">
+                    <label for="percentageTip">Tip (%)</label>
+                    <input type="number" class="inputs" id="percentageTip" name="percentageTip" required>
+                </div>
+
+                <div class="submit-inputs">
+                <label for="personsTotal">no. of persons</label>
+                <input type="number" class="inputs" id="personsTotal" name="personsTotal" required>
+                </div>
+
+                <span class="forCalc">
+                    <input type="submit" class="calcBtn" id="calc-btn"  value="calculate">
+                </span>
+               
+
+                <div class="bill-outputs">
+                    <div class="outputs">
+                        <h1>Total Bill</h1>
+                        <output class="finalBill" id="totalBillAll">00.00€</output>
+                        </div>
+
+                        <div class="outputs">
+                        <h1>Bill Per Person</h1>
+                        <output class="finalBill" id="billPerOne">00.00€</output>
+                        </div>
+
+                        <div class="outputs">
+                        <h1>Total Tip</h1>
+                        <output class="finalBill" id="totalTip">00.00€</output>
+                        </div>
+
+                        <div class="outputs">
+                        <h1>Tip Per Person</h1>
+                        <output class="finalBill" id="tipPerOne">00.00€</output>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>

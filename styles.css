@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0b0808;
+    font-family: 'Lato', sans-serif;
+}
+
+.main-container {
+    width: 35rem;
+    height: 50rem;
+    background-color: white;
+    color: black;
+}
+
+.title {
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    background-color: #181818;
+    color: white;
+    text-align: center;
+}
+
+.submit-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+label {
+    margin: 1rem 0 1rem 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.inputs {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+.forCalc {
+    display: flex;
+    justify-content: center;
+}
+
+.calcBtn {
+    width: 10rem;
+    height: 3.5rem;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #181818;
+    color: white;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.bill-outputs {
+    margin-top: 1.5rem;
+    border-top: 1px solid;
+    padding-top: 1rem;
+}
+
+.outputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
